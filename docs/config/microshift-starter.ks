@@ -15,7 +15,7 @@ part /boot/efi --fstype=efi --size=200
 part /boot --fstype=xfs --asprimary --size=800
 part pv.01 --grow
 volgroup rhel pv.01
-logvol / --vgname=rhel --fstype=xfs --size=66560   --name=root
+logvol / --vgname=rhel --fstype=xfs --size=71680   --name=root
 
 # Configure users
 rootpw --lock
